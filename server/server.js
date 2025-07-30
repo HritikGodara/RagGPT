@@ -20,6 +20,13 @@ app.get('/env', (req, res) => {
   res.json({ GROQ_API_KEYS: process.env.GROQ_API_KEYS });
 });
 
+app.get('/', (req, res) => {
+  res.send({
+    activeStatus:true,
+    error:false    
+  });
+})
+
 module.exports = app;
 
 if (require.main === module) {
