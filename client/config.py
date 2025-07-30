@@ -1,1 +1,1 @@
-API_URL = "https://rag-n0f4qdbuf-hritikgodaras-projects.vercel.app"  # Change this when deploying
+API_URL = "https://rag-rg1rt0vj6-hritikgodaras-projects.vercel.app"  # Change this when deploying
