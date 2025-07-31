@@ -1,1 +1,1 @@
-API_URL = "http://127.0.0.1:8000"  # Change this when deploying
+API_URL = "https://851d1efc9651.ngrok-free.app"  # Change this when deploying
