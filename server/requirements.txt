@@ -29,9 +29,6 @@ loguru
 
 # File Uploads
 aiofiles
-express
-cors
-dotenv
 
 
 # pip install -r requirements.txt
