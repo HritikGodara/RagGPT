@@ -1,1 +1,1 @@
-API_URL = "http://127.0.0.1:8000"  # Change this when deploying
+API_URL = "https://rag-mi751k08l-hritikgodaras-projects.vercel.app"  # Change this when deploying
