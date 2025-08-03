@@ -26,6 +26,7 @@ requests
 
 # Logging (optional but recommended)
 loguru
+python-multipart
 
 # File Uploads
 aiofiles
