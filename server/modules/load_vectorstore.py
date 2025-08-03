@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import HuggingFaceBgeEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
@@ -38,7 +38,7 @@ def load_vectorstore(uploaded_files):
         print("[ERROR] - No text extracted from uploaded PDFs. Skipping vectorstore creation.")
         return None
 
-    embeddings=HuggingFaceBgeEmbeddings(model_name="all-MiniLM-L12-v2")
+    embeddings=HuggingFaceEmbeddings(model_name="all-MiniLM-L12-v2")
 
 
     if os.path.exists(PERSIST_DIR) and os.listdir(PERSIST_DIR):
