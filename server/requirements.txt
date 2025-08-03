@@ -1,4 +1,4 @@
-# Web Framework
+python-multipart
 fastapi
 uvicorn[standard]
 
@@ -11,8 +11,10 @@ langchain-groq
 # Vectorstore
 chromadb
 
+
 # Embeddings
 sentence-transformers
+langchain-huggingface
 
 # PDF Parsing
 PyPDF  # backend for PyPDFLoader via langchain_community
@@ -26,10 +28,8 @@ requests
 
 # Logging (optional but recommended)
 loguru
-python-multipart
 
 # File Uploads
 aiofiles
-
 
 # pip install -r requirements.txt
