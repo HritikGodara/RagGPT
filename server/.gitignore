@@ -1,4 +1,4 @@
 /uploaded_pdfs
 /chroma_store
-/pycache
+__pycache__
 .env
