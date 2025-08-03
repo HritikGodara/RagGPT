@@ -1,1 +1,1 @@
-API_URL = "https://851d1efc9651.ngrok-free.app"  # Change this when deploying
+API_URL = "https://raggpt.onrender.com"  # Change this when deploying
